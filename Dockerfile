@@ -9,3 +9,4 @@ EXPOSE 9000
 # Set the entry point for the container
 # This command will run the Spring Boot application
 ENTRYPOINT ["java", "-jar", "app.jar", "--server.port=9000", "--server.address=0.0.0.0"]
+
